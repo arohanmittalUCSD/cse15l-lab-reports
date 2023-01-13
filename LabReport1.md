@@ -3,8 +3,7 @@
 1. Go to the Visual Code Studio Website
 2. Download for your Operating System (Windows, in my case) and follow the instructions
 3. You should have VSCode downloaded now!
-![image]
-(Part3img.png)
+![image](Part3img.png)
 ## Remotely Connecting
 1. Download Git for Windows from [here](https:///git-scm.com/download/win)
 2. Open VSCode and a new terminal (ctrl + `)
@@ -15,11 +14,9 @@
 7. If a confirmation message pops up when logging in for the first time, type in yes
 8. Enter your password (There is no feedback when typing it in!)
 9. You should be logged in now!
-![image]
-(Part4img.png)
+![image](Part4img.png)
 ## Trying Some Commands
 Try out some commands!
 
 For Example: $cd ~, which should take you to the home directory
-![image]
-(Part5img.png)
+![image](Part5img.png)
