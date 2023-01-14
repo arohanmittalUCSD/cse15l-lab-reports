@@ -9,3 +9,4 @@ _Orwell, stay silent as the night._
 > Orwell could not believe that he had left his beloved commander to die
 
 [Read More](myFile.md)
+[Lab Report](LabReport1.md)
