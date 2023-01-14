@@ -3,6 +3,7 @@
 1. Go to the Visual Code Studio Website
 2. Download for your Operating System (Windows, in my case) and follow the instructions
 3. You should have VSCode downloaded now!
+
 ![image](Part3img.PNG)
 
 ## Remotely Connecting
@@ -15,10 +16,12 @@
 7. If a confirmation message pops up when logging in for the first time, type in yes
 8. Enter your password (There is no feedback when typing it in!)
 9. You should be logged in now!
+
 ![image](Part4img.PNG)
 
 ## Trying Some Commands
 Try out some commands!
 
 For Example: $cd ~, which should take you to the home directory
+
 ![image](Part5img.PNG)
