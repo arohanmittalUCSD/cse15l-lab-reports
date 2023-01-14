@@ -4,6 +4,7 @@
 2. Download for your Operating System (Windows, in my case) and follow the instructions
 3. You should have VSCode downloaded now!
 ![image](Part3img.PNG)
+
 ## Remotely Connecting
 1. Download Git for Windows from [here](https:///git-scm.com/download/win)
 2. Open VSCode and a new terminal (ctrl + `)
@@ -15,6 +16,7 @@
 8. Enter your password (There is no feedback when typing it in!)
 9. You should be logged in now!
 ![image](Part4img.PNG)
+
 ## Trying Some Commands
 Try out some commands!
 
