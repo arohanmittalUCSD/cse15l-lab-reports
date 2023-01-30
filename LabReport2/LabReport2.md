@@ -157,22 +157,22 @@ public class Server {
 
 ```java
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = {1,2,3,4};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{4,3,2,1}, input1);
-	}
+}
 ```
 
 #### Non-Failure-Inducing JUnit Test
 
 ```java
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
-	}
+}
 ```
 
 #### Symptoms
