@@ -203,3 +203,13 @@ static void reverseInPlace(int[] arr) {
 ```
 
 When I tested reverseInPlace using the array {1,2,3,4}, the expected output was {4,3,2,1}. However, the actual output was {4,3,3,4}. The problem was that the array was replacing the final values using edited values of the array. To solve this, I created a temporary value holder and made the loop half as long. Using that temporary data holder, I changed both the front and back of the array at the same time. If there were an odd number of values in the array, the center value need not be changed.
+
+## Part 3
+
+I learned many different things from Labs 2 and 3! Some of them include:
+
+1. Creating a web server using localhost
+2. Using web server URLs as input to display output
+3. How to create my very own (primtive) search engine
+4. Using GitHub Desktop to work with code locally
+5. Using JUnit to easily find and fix bugs
