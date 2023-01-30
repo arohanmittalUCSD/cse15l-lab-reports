@@ -25,10 +25,10 @@
 Try out some commands!
 
 For Example: 
-`cd <path>` allows you to navigate the directories of your system
-`pwd` will allow you to figure out where you currently are
-`cd ~` should take you directly to the home directory!
-`ls <directory>` will allow you to find out the contents of a directory without needing to change to it!
+1. `cd <path>` allows you to navigate the directories of your system
+2. `pwd` will allow you to figure out where you currently are
+3. `cd ~` should take you directly to the home directory!
+4. `ls <directory>` will allow you to find out the contents of a directory without needing to change to it!
 
 Working with commands like these can help one in getting comfortable with the command line and navigating it.
 
