@@ -1,7 +1,9 @@
 # Lab Report 2
 ## Part 1
 
-StringServer.java:
+### Code
+
+#### StringServer.java:
 
 ```java
 import java.io.IOException;
@@ -39,7 +41,7 @@ class StringServer {
 }
 ```
 
-Server.java:
+#### Server.java:
 
 ```java
 // A simple web server using Java's built-in HttpServer
@@ -97,4 +99,12 @@ public class Server {
 }
 ```
 
+### Usage
 
+#### Adding Message 'Hold, Orwell'
+
+![Hold, Orwell](HoldOrwell.PNG)
+
+#### Adding Message 'Charge Now!'
+
+![Charge Now!](ChargeNow.PNG)
