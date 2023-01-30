@@ -12,15 +12,15 @@ import java.net.URI;
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    String s = "";
+    String totalString = "";
 
     public String handleRequest(URI url) {
         System.out.println("Arohan's Path: " + url.getPath());
         if (url.getPath().contains("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                s += "\n" + String.format(parameters[1]);
-                return String.format(s);
+                totalString += "\n" + String.format(parameters[1]);
+                return String.format(totalString);
             }
         }
         return "404 Not Found!";
@@ -119,8 +119,32 @@ public class Server {
 
 #### Adding Message 'Hold, Orwell'
 
+1. The server is constantly looking for changes to its URL and calling `handleRequest`.
+2. We send 'Hold, Orwell' into the URL as `\add-message?s=Hold,%20Orwell`.
+3. This url is used as an argument when calling `handleRequest`.
+4. The console reflects the request by printing the url to the server computer's console.
+5. `url.getPath().contains()` is called to see if the URL path is in the correct format.
+6. As the path is in the correct format, `url.getQuery().split("=")` splits our request and maps it to the `parameters` array.
+7. The `parameters` array contains at it's 0th index `"s"` and at its 1st index `"Hold, Orwell"`.
+8. A `.equals` call is made to make sure that the 0th index is, indeed, `s`.
+9. As this is true, `"\n"` and `"Hold, Orwell"` are added to the String `totalString`, which previously contained "".
+10. The entirety of `totalString` is returned and stored in `ret`, which is passed as a parameter to `os.write`.
+11. The contents of `totalString` are written to the webpage.
+
 ![Hold, Orwell](HoldOrwell.png)
 
 #### Adding Message 'Charge Now!'
+
+1. The server is constantly looking for changes to its URL and calling `handleRequest`.
+2. We send 'Hold, Orwell' into the URL as `\add-message?s=Charge%20Now!`.
+3. This url is used as an argument when calling `handleRequest`.
+4. The console reflects the request by printing the url to the server computer's console.
+5. `url.getPath().contains()` is called to see if the URL path is in the correct format.
+6. As the path is in the correct format, `url.getQuery().split("=")` splits our request and maps it to the `parameters` array.
+7. The `parameters` array contains at it's 0th index `"s"` and at its 1st index `"Charge Now!"`.
+8. A `.equals` call is made to make sure that the 0th index is, indeed, `s`.
+9. As this is true, `"\n"` and `"Charge Now!"` are added to the String `totalString`, which previously contained "".
+10. The entirety of `totalString` is returned and stored in `ret`, which is passed as a parameter to `os.write`.
+11. The contents of `totalString` are written to the webpage.
 
 ![Charge Now!](ChargeNow.png)
