@@ -210,6 +210,7 @@ I learned many different things from Labs 2 and 3! Some of them include:
 
 1. Creating a web server using localhost
 2. Using web server URLs as input to display output
-3. How to create my very own (primtive) search engine
-4. Using GitHub Desktop to work with code locally
-5. Using JUnit to easily find and fix bugs
+3. How servers behave with multiple simultaneous users
+4. How to create my very own (primtive) search engine
+5. Using GitHub Desktop to work with code locally
+6. Using JUnit to easily find and fix bugs (gained proficiency!)
