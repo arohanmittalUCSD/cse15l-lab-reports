@@ -127,7 +127,7 @@ public class Server {
 6. As the path is in the correct format, `url.getQuery().split("=")` splits our request and maps it to the `parameters` array.
 7. The `parameters` array contains at it's 0th index `"s"` and at its 1st index `"Hold, Orwell"`.
 8. A `.equals` call is made to make sure that the 0th index is, indeed, `s`.
-9. As this is true, `"\n"` and `"Hold, Orwell"` are added to the String `totalString`, which previously contained "".
+9. As this is true, `"\n"` and `"Hold, Orwell"` are added to the String `totalString`, which previously contained `""`.
 10. The entirety of `totalString` is returned and stored in `ret`, which is passed as a parameter to `os.write`.
 11. The contents of `totalString` are written to the webpage.
 
@@ -143,8 +143,48 @@ public class Server {
 6. As the path is in the correct format, `url.getQuery().split("=")` splits our request and maps it to the `parameters` array.
 7. The `parameters` array contains at it's 0th index `"s"` and at its 1st index `"Charge Now!"`.
 8. A `.equals` call is made to make sure that the 0th index is, indeed, `s`.
-9. As this is true, `"\n"` and `"Charge Now!"` are added to the String `totalString`, which previously contained "".
+9. As this is true, `"\n"` and `"Charge Now!"` are added to the String `totalString`, which previously contained `"\nHold, Orwell"`.
 10. The entirety of `totalString` is returned and stored in `ret`, which is passed as a parameter to `os.write`.
 11. The contents of `totalString` are written to the webpage.
 
 ![Charge Now!](ChargeNow.png)
+
+## Part 2
+
+### Code
+
+#### Failure-Inducing JUnit Test
+
+```java
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = {1,2,3,4};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{4,3,2,1}, input1);
+	}
+```
+
+#### Non-Failure-Inducing JUnit Test
+
+```java
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+
+#### Symptoms
+
+![Symptoms](Symptoms.png)
+
+#### ArrayExamples.java (method: reverseInPlace)
+
+```java
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
