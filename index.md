@@ -9,4 +9,7 @@ _Orwell, stay silent as the night._
 > Orwell could not believe that he had left his beloved commander to die
 
 [Read More](myFile.md)
-[Lab Report](LabReport1.md)
+
+[Lab Report 1](LabReport1/LabReport1.md)
+
+[Lab Report 2](LabReport2/LabReport2.md)
