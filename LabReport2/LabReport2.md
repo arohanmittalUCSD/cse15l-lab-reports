@@ -101,10 +101,26 @@ public class Server {
 
 ### Usage
 
+#### Starting the Server
+
+1. Before using the ability to add a message, I first started the server.
+2. I used localhost to run the server with the following commands:
+   ```
+   javac Server.java StringServer.java
+   java StringServer 4000
+   ```
+3. 4000 here is given as a String argument to array `args`
+4. This String is then parsed and stored in `port` with type int
+5. This is passed as an argument to the static `Server.start` method
+6. The same port is passed as an argument to the static `HttpServer.create` method, and the resulting HttpServer is stored in server
+7. The server is started
+
+![ServerStart](ServerStart.png)
+
 #### Adding Message 'Hold, Orwell'
 
-![Hold, Orwell](HoldOrwell.PNG)
+![Hold, Orwell](HoldOrwell.png)
 
 #### Adding Message 'Charge Now!'
 
-![Charge Now!](ChargeNow.PNG)
+![Charge Now!](ChargeNow.png)
