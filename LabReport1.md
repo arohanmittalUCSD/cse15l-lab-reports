@@ -13,6 +13,7 @@
 4. Type - Select Default Profile
 5. Select Git Bash from the options, and click the + icon in the terminal window
 6. Use the following command, where XXX should be replaced by your personal cs15l username code:
+
    `ssh cs15lwi23XXX@ieng6.ucsd.edu`
 8. If a confirmation message pops up when logging in for the first time, type in yes
 9. Enter your password (There is no feedback when typing it in!)
