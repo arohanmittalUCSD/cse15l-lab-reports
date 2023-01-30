@@ -1,6 +1,6 @@
 # Week 1 Lab Report
 ## Installing VSCode
-1. Go to the [Visual Code Studio Website]([http://a.com](https://code.visualstudio.com/download))
+1. Go to the [Visual Code Studio Website](https://code.visualstudio.com/download)
 2. Download for your Operating System (Windows, in my case) and follow the instructions
 3. You should have VSCode downloaded now!
 
