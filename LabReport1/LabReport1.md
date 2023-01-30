@@ -4,7 +4,7 @@
 2. Download for your Operating System (Windows, in my case) and follow the instructions
 3. You should have VSCode downloaded now!
 
-![image](Part3img.PNG)
+![image](../Part3img.PNG)
 
 ## Remotely Connecting
 1. Download Git for Windows from [here](https:///git-scm.com/download/win)
@@ -19,7 +19,7 @@
 9. Enter your password (There is no feedback when typing it in!)
 10. You should be logged in now!
 
-![image](Part4img.PNG)
+![image](../Part4img.PNG)
 
 ## Trying Some Commands
 Try out some commands!
@@ -34,4 +34,4 @@ Working with commands like these can help one in getting comfortable with the co
 
 For more examples of commands, try out the commands shown in the image and try to figure out what they do!
 
-![image](Part5img.PNG)
+![image](../Part5img.PNG)
