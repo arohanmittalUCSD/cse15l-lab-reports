@@ -177,9 +177,9 @@ public void testReverseInPlace() {
 
 #### Symptoms
 
-![Symptoms](Symptoms.png)
+![Symptoms](Symptom.png)
 
-#### ArrayExamples.java (method: reverseInPlace)
+#### ArrayExamples.java (method: reverseInPlace) (BEFORE)
 
 ```java
 static void reverseInPlace(int[] arr) {
@@ -188,3 +188,18 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
+
+#### ArrayExamples.java (method: reverseInPlace) (AFTER)
+
+```java
+static void reverseInPlace(int[] arr) {
+    int tempData;
+    for(int i = 0; i < (arr.length/2); i += 1) {
+      tempData = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = tempData;
+    }
+}
+```
+
+When I tested reverseInPlace using the array {1,2,3,4}, the expected output was {4,3,2,1}. However, the actual output was {4,3,3,4}. The problem was that the array was replacing the final values using edited values of the array. To solve this, I created a temporary value holder and made the loop half as long. Using that temporary data holder, I changed both the front and back of the array at the same time. If there were an odd number of values in the array, the center value need not be changed.
