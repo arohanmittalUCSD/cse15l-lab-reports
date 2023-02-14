@@ -9,7 +9,14 @@ The grep -r command, on the other hand, searches for the pattern recursively thr
 
 ```
 [cs15lwi23avy@ieng6-203]:skill-demo1-data:162$ grep -r "multiple textile channels" written_2/
-written_2/non-fiction/OUP/Abernathy/ch2.txt:Textile firms, however, have been players in multiple supply channels. There are three major categories of sales outlets for these manufacturers: (1) woven goods and some knit goods destined for clothing, in which materials are sold to apparel-makers for fabrication and assembly; (2) home furnishings—such as sheets, bedspreads, towels, and some knit goods—in which the textile firm sells directly to retailers; (3) industrial products, from automobile seat covers and rugs to commercial fishing nets, in which a textile firm sells materials to a car company or other nonapparel manufacturer. Thus, there are at least three kinds of relations among the industries, and multiple textile channels are on the rise. Although apparel uses dominated textile consumption in the past, by the early 1980s apparel’s share of fiber consumption was only 37 percent; home furnishings was about 38 percent; and industrial textile products consumed over 20 percent.
+written_2/non-fiction/OUP/Abernathy/ch2.txt:Textile firms, however, have been players in multiple supply channels. There are three m
+ajor categories of sales outlets for these manufacturers: (1) woven goods and some knit goods destined for clothing, in which materi
+als are sold to apparel-makers for fabrication and assembly; (2) home furnishings—such as sheets, bedspreads, towels, and some knit 
+goods—in which the textile firm sells directly to retailers; (3) industrial products, from automobile seat covers and rugs to commer
+cial fishing nets, in which a textile firm sells materials to a car company or other nonapparel manufacturer. Thus, there are at lea
+st three kinds of relations among the industries, and multiple textile channels are on the rise. Although apparel uses dominated tex
+tile consumption in the past, by the early 1980s apparel’s share of fiber consumption was only 37 percent; home furnishings was abou
+t 38 percent; and industrial textile products consumed over 20 percent.
 ```
 
 ```
