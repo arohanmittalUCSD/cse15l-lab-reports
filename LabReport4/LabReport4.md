@@ -18,7 +18,7 @@ The final goal is, of course, speed via auto completion. The course website give
 
 ### Create a.sh and b.sh
 
-Create two .sh files in a predetermined directory in our local computer in the following form.
+Create a .sh files in a predetermined directory in our local computer in the following form.
 
 #### a.sh
 
