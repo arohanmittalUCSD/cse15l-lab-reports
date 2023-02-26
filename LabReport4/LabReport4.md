@@ -70,6 +70,6 @@ The crux of this is to navigate to line 43 and change `index1` to `index2`, and 
 
 ![thefifth](thefifth.png)
 
-![theseventh](the seventh.png)
+![theseventh]("the seventh.png")
 
 ![theeighth](theeighth.png)
