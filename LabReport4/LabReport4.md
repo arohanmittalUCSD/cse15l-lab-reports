@@ -45,7 +45,7 @@ git push
 
 Assuming our computer, ieng6 machine, and github are set up as described in week 7 of the course website, we can now proceed to performing the tasks.
 
-Keys Pressed: <up><enter>
+Keys Pressed: \<up\>\<enter\>
   
 This takes us to the previous command, which logs us into our ieng6 machine
 
@@ -53,6 +53,6 @@ Keys Pressed: sh a.sh
 
 This completes tasks 5 and 6, and opens up the editor for task 7.
 
-Keys Pressed: <down>*(42)<right>*(12)a<backspace>1<escape>:w<enter>:qa<enter>
+Keys Pressed: \<down\>\*(42)\<right\>\*(12)a\<backspace\>1\<escape\>:w\<enter\>:qa\<enter\>
 
-The crux of this is to navigate to line 43 and change `index1` to `index2`, and then to save and exit the vim editor. The 'a.sh' script will then continue and complete the remaining tasks automatically, thereby making the completeion of our tasks _fast_.
+The crux of this is to navigate to line 43 and change `index1` to `index2`, and then to save and exit the vim editor. The 'a.sh' script will then continue and complete the remaining tasks automatically, thereby making the completeion of our tasks *fast*.
