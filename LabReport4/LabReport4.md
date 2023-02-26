@@ -38,12 +38,13 @@ git push
 ### Setting up the ieng6 machine
 
 1. Use the command `scp <path to a.sh> cs15lwi23___@ieng6.ucsd.edu:~` to copy a.sh to your ieng6 machine.
-[thefirst](thefirst.png)
+
+![thefirst](thefirst.png)
 
 2. Log into your ieng6 machine with the command `ssh cs15lwi23___@ieng6.ucsd.edu`
 3. Immediately exit with `exit`
 
-[thesecond](thesecond.png)
+![thesecond](thesecond.png)
 
 ## Action
 
@@ -52,17 +53,23 @@ Assuming our computer, ieng6 machine, and github are set up as described in week
 Keys Pressed: \<up\>\<enter\>
   
 This takes us to the previous command, which logs us into our ieng6 machine
-[thethird](thethird.png)
+
+![thethird](thethird.png)
 
 Keys Pressed: sh a.sh
 
 This completes tasks 5 and 6, and opens up the editor for task 7.
-[thefourth](thefourth.png)
-[thesixth](thesixth.png)
+
+![thefourth](thefourth.png)
+
+![thesixth](thesixth.png)
 
 Keys Pressed: \<down\>\*(42)\<right\>\*(12)a\<backspace\>1\<escape\>:w\<enter\>:qa\<enter\>
 
 The crux of this is to navigate to line 43 and change `index1` to `index2`, and then to save and exit the vim editor. The 'a.sh' script will then continue and complete the remaining tasks automatically, thereby making the completeion of our tasks *fast*.
-[thefifth](thefifth.png)
-[theseventh](theseventh.png)
-[theeighth](theeighth.png)
+
+![thefifth](thefifth.png)
+
+![theseventh](theseventh.png)
+
+![theeighth](theeighth.png)
