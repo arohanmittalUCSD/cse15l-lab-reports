@@ -16,7 +16,7 @@
 
 The final goal is, of course, speed via auto completion. The course website gives interesting ways to make humans more efficient through the use of keyboard shortcuts via autocompletion. I, however, propose to take this a step further into automation - or well, close to it anyways.
 
-### Create a.sh and b.sh
+### Create a.sh
 
 Create a .sh files in a predetermined directory in our local computer in the following form.
 
