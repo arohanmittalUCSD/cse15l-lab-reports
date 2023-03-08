@@ -35,6 +35,8 @@ git commit -m "Fixed Everything"
 git push
 ```
 
+<br/>
+
 1. The `clone` command clones the fork of our repository.
 2. The `cd lab7` command changes our directory into the fork.
 3. The next two commands with `javac` and `java` run the tests, to show that they fail.
