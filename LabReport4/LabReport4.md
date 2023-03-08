@@ -37,12 +37,17 @@ git push
 
 <br/>
 
-1. The `clone` command clones the fork of our repository.
-2. The `cd lab7` command changes our directory into the fork.
-3. The next two commands with `javac` and `java` run the tests, to show that they fail.
-4. The `vim` command opens up the vim editor so that we can edit the `ListExamples.java` files to debug it
-5. The next two commands with `javac` and `java` run the tests again, to show that they succeed now
-6. The last 3 commands are used to add, commit, and push the files that we have changed to our github <br/> account's fork with the commit message "Fixed Everything", because we have, in fact, fixed everything.
+The `clone` command clones the fork of our repository.
+
+The `cd lab7` command changes our directory into the fork.
+
+The next two commands with `javac` and `java` run the tests, to show that they fail.
+
+The `vim` command opens up the vim editor so that we can edit the `ListExamples.java` files to debug it
+
+The next two commands with `javac` and `java` run the tests again, to show that they succeed now
+
+The last 3 commands are used to add, commit, and push the files that we have changed to our github account's fork with the commit message "Fixed Everything", because we have, in fact, fixed everything.
 
 ### Setting up the ieng6 machine
 
