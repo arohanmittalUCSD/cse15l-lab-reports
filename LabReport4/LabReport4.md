@@ -35,6 +35,13 @@ git commit -m "Fixed Everything"
 git push
 ```
 
+1. The `clone` command clones the fork of our repository.
+2. The `cd lab7` command changes our directory into the fork.
+3. The next two commands with `javac` and `java` run the tests, to show that they fail.
+4. The `vim` command opens up the vim editor so that we can edit the `ListExamples.java` files to debug it
+5. The next two commands with `javac` and `java` run the tests again, to show that they succeed now
+6. The last 3 commands are used to add, commit, and push the files that we have changed to our github account's fork with the commit message "Fixed Everything", because we have, in fact, fixed everything.
+
 ### Setting up the ieng6 machine
 
 1. Use the command `scp <path to a.sh> cs15lwi23___@ieng6.ucsd.edu:~` to copy a.sh to your ieng6 machine.
@@ -42,7 +49,7 @@ git push
 ![thefirst](thefirst.png)
 
 2. Log into your ieng6 machine with the command `ssh cs15lwi23___@ieng6.ucsd.edu`
-3. Immediately exit with `exit`
+3. Immediately exit with `exit`. We did this so that we can access this command very quickly with just a press of the <up> button. This increases our speed as we do not need to type the the full command `ssh cs15lwi23___@ieng6.ucsd.edu`
 
 ![thesecond](thesecond.png)
 
