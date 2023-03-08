@@ -49,7 +49,7 @@ git push
 ![thefirst](thefirst.png)
 
 2. Log into your ieng6 machine with the command `ssh cs15lwi23___@ieng6.ucsd.edu`
-3. Immediately exit with `exit`. We did this so that we can access this command very quickly with just a press of the <up> button. This increases our speed as we do not need to type the the full command `ssh cs15lwi23___@ieng6.ucsd.edu`
+3. Immediately exit with `exit`. We did this so that we can access this command very quickly with just a press of the <up> button. This increases our speed as we do not need to type the the full command `ssh cs15lwi23___@ieng6.ucsd.edu` in our actual attempt to complete the tasks at speed.
 
 ![thesecond](thesecond.png)
 
