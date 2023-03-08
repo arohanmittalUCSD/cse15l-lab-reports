@@ -1,5 +1,3 @@
-html {
-    overflow-x: hidden; }
 # Lab Report 4
 
 ## The Tasks
